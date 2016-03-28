@@ -1,0 +1,311 @@
+h2 {
+  font-size: 45px;
+  font-weight: 400; }
+
+hr {
+  width: 15%;
+  border: 1px solid #ccc; }
+
+.btn {
+  background: #282B2D;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 12px 20px; }
+
+header {
+  background: #27AD60; }
+  header .navbar-brand:hover {
+    background: rgba(0, 0, 0, 0.08) !important; }
+  header .navbar-nav li a:hover {
+    background: rgba(0, 0, 0, 0.08) !important; }
+
+section {
+  padding: 100px 0; }
+  section p, section #team .team .red-social a, #team .team .red-social section a {
+    font-size: 17px;
+    font-weight: 300; }
+
+#about-us, #best-price, #clients-say, #touch {
+  background: #334556;
+  color: white; }
+
+#what-we-do, #team, #contact {
+  background: #27AD60;
+  color: white; }
+
+/* ..........CAROUSEL ..........*/
+#carousel {
+  background: url("../img/carousel-bg.jpg");
+  background-position: 0 -210px;
+  background-repeat: no-repeat; }
+  #carousel h1, #carousel p, #carousel #team .team .red-social a, #team .team .red-social #carousel a {
+    color: white;
+    font-weight: 300; }
+  #carousel h1 {
+    font-size: 50px; }
+  #carousel p, #carousel #team .team .red-social a, #team .team .red-social #carousel a {
+    font-size: 18px; }
+
+/* ..........PALETTE.......... */
+.uno {
+  background-color: #69D2E7;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.dos {
+  background-color: #A7DBDB;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.tres {
+  background-color: #E0E4CC;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.cuatro {
+  background-color: #F38630;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.cinco {
+  background-color: #FA6900;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.seis {
+  background-color: #E94C6F;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.siete {
+  background-color: #542733;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px;
+  color: white; }
+
+.ocho {
+  background-color: #5A6A62;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.nueve {
+  background-color: #C6D5CD;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.diez {
+  background-color: #FDF200;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.once {
+  background-color: #DB3340;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.doce {
+  background-color: #E8B71A;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.trece {
+  background-color: #F7EAC8;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.catorce {
+  background-color: #1FDA9A;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.quince {
+  background-color: #2BABE3;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.diez6 {
+  background-color: #588C73;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.diez7 {
+  background-color: #F2E394;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.diez8 {
+  background-color: #F2AE72;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.diez9 {
+  background-color: #D96459;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.veinte {
+  background-color: #8C4646;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.veinti1 {
+  background-color: #D0C91F;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.veinti2 {
+  background-color: #85C4B9;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.veinti3 {
+  background-color: #008BBA;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.veinti4 {
+  background-color: #DF514C;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+.veinti5 {
+  background-color: #DC403B;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px; }
+
+/* ..........ABOUT US.......... */
+#about-us .barras {
+  margin: 50px 0; }
+#about-us .progress {
+  margin: 0;
+  margin-top: 15px; }
+
+/* ..........WHAT WE DO.......... */
+#what-we-do .what {
+  padding: 50px !important;
+  background: #27AD60; }
+#what-we-do .what:hover {
+  background: rgba(0, 0, 0, 0.5); }
+  #what-we-do .what:hover .icon {
+    background: #f0ad4e;
+    transform: rotate(50deg); }
+  #what-we-do .what:hover h3 {
+    color: #f0ad4e;
+    border-bottom: 1px solid white; }
+#what-we-do .icon {
+  background-image: url("../img/icon-bg.png");
+  background-color: #334556;
+  padding: 20px;
+  background-position: 70px; }
+
+/* ..........TEAM.......... */
+#team .team {
+  padding: 35px; }
+  #team .team h5 {
+    color: #334556;
+    border-bottom: 1px dashed orange;
+    padding: 10px;
+    background-position: 70px !important; }
+  #team .team p, #team .team .red-social a {
+    font-size: 18px;
+    color: #ccc; }
+  #team .team .red-social a {
+    margin: 5px; }
+
+/* ..........BEST PRICE.......... */
+#best-price .price {
+  border: 1px solid #27AD60;
+  margin-top: 150px; }
+  #best-price .price h4 {
+    margin: 0;
+    padding: 20px;
+    font-weight: 400; }
+  #best-price .price .verde {
+    background: #27AD60;
+    padding: 15px; }
+    #best-price .price .verde b {
+      font-size: 48px;
+      font-weight: 400; }
+  #best-price .price p, #best-price .price #team .team .red-social a, #team .team .red-social #best-price .price a {
+    padding: 10px;
+    margin: 0; }
+  #best-price .price .cafe {
+    background: #8F5F38;
+    color: white; }
+  #best-price .price .blanco {
+    background: white;
+    color: #334556; }
+  #best-price .price .sign {
+    background: #8F5F38;
+    color: white;
+    margin: 40px 0;
+    font-size: 18px; }
+#best-price .price:hover {
+  border: 2px solid orange;
+  margin-top: 100px; }
+
+/*..........CIENTS SAY.......... */
+#clients-say .say {
+  padding: 25px 150px; }
+  #clients-say .say i {
+    font-size: 20px;
+    font-weight: 200; }
+  #clients-say .say p, #clients-say .say #team .team .red-social a, #team .team .red-social #clients-say .say a {
+    color: orange; }
+
+/* ..........TOUCH.......... */
+#touch form {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5%; }
+
+/* ..........FOOTER.......... */
+#contact {
+  font-size: 16px; }
+  #contact .redes {
+    background-image: url("../img/img-divider-img.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 10% 0; }
+  #contact .redes-sociales {
+    margin: 0 auto;
+    font-size: 100px; }
+  #contact h5 {
+    font-size: 20px; }
+  #contact .input-group {
+    margin: 0 10%; }
+    #contact .input-group i {
+      color: orange; }
+  #contact ul {
+    padding: 0;
+    margin: 0 25%; }
+  #contact p, #contact #team .team .red-social a, #team .team .red-social #contact a {
+    color: #334556; }
+
+/*# sourceMappingURL=main.css.map */

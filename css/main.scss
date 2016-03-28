@@ -1,0 +1,292 @@
+$green: #27AD60;
+$shadow: rgba(0,0,0,0.08);
+$white: white;
+$bg-b: #334556;
+
+h2 {
+	font-size: 45px;
+	font-weight: 400;
+}
+hr {
+	width: 15%;
+	border: 1px solid #ccc;
+}
+.btn {
+		background: #282B2D;
+		border: none;
+		color: white;
+		font-size: 16px;
+		padding: 12px 20px;
+}
+header {
+	background: $green;
+
+	.navbar-brand:hover {
+		background: $shadow !important;
+	}
+	.navbar-nav li a:hover {
+		background: $shadow !important;
+	}
+}
+section {
+	padding: 100px 0;
+	p {
+	font-size: 17px;
+	font-weight: 300; }
+}
+#about-us, #best-price, #clients-say, #touch {
+	background: $bg-b;
+	color: $white;
+}
+#what-we-do, #team, #contact {
+	background: $green;
+	color: $white;
+}
+/* ..........CAROUSEL ..........*/
+#carousel {
+	background: url("../img/carousel-bg.jpg");
+	background-position: 0 -210px;
+	background-repeat: no-repeat;
+	h1, p {
+		color: $white;
+		font-weight: 300;
+	}
+	h1 {
+		font-size: 50px;
+	}
+	p {
+		font-size: 18px;
+		
+	}
+}
+/* ..........PALETTE.......... */
+
+@mixin color($var_color) {
+	background-color:$var_color;
+	text-align: center;
+	height: 150px;
+	margin-bottom: 15px;
+}
+
+.uno {
+	@include color(#69D2E7);
+}
+.dos {
+	@include color(#A7DBDB);
+}
+.tres {
+	@include color(#E0E4CC);
+}
+.cuatro {
+	@include color(#F38630);
+}
+.cinco {
+	@include color(#FA6900);
+}
+.seis {
+	@include color(#E94C6F);
+}
+.siete {
+	@include color(#542733);
+	color: white;
+}
+.ocho {
+	@include color(#5A6A62);
+}
+.nueve {
+	@include color(#C6D5CD);
+}
+.diez {
+	@include color(#FDF200);
+}
+.once {
+	@include color(#DB3340);
+}
+.doce {
+	@include color(#E8B71A);
+}
+.trece {
+	@include color(#F7EAC8);
+}
+.catorce {
+	@include color(#1FDA9A);
+}
+.quince {
+	@include color(#2BABE3);
+}
+.diez6 {
+	@include color(#588C73);
+}
+.diez7 {
+	@include color(#F2E394);
+}
+.diez8 {
+	@include color(#F2AE72);
+}
+.diez9 {
+	@include color(#D96459);
+}
+.veinte {
+	@include color(#8C4646);
+}
+.veinti1 {
+	@include color(#D0C91F);
+}
+.veinti2 {
+	@include color(#85C4B9);
+}
+.veinti3 {
+	@include color(#008BBA);
+}
+.veinti4 {
+	@include color(#DF514C);
+}
+.veinti5 {
+	@include color(#DC403B);
+}
+/* ..........ABOUT US.......... */
+#about-us {
+	.barras {
+		margin: 50px 0;
+	}
+	.progress {
+		margin: 0;
+		margin-top: 15px;
+	}
+}
+/* ..........WHAT WE DO.......... */
+#what-we-do {
+	.what {
+		padding: 50px !important;
+		background: $green;
+	}
+	.what:hover {
+		background: rgba(0,0,0,0.5);
+		.icon {
+			background: #f0ad4e;
+			transform: rotate(50deg);
+		}
+		h3 {
+			color: #f0ad4e;
+			border-bottom: 1px solid white;
+		}
+	}
+	.icon {
+		background-image: url("../img/icon-bg.png");
+		background-color: $bg-b;
+		padding: 20px;
+		background-position: 70px;
+	}
+}
+/* ..........TEAM.......... */
+#team {
+	.team {
+		padding: 35px;
+		h5 {
+		color: $bg-b;
+		border-bottom: 1px dashed orange;
+		padding: 10px;
+		background-position: 70px!important;
+		}
+		p {
+			font-size: 18px;
+			color: #ccc;
+		}
+		.red-social a {
+			@extend p;
+			margin: 5px;
+		}
+	}
+}
+/* ..........BEST PRICE.......... */
+#best-price {
+	.price {
+		border: 1px solid $green;
+		margin-top: 150px;
+		h4 {
+			margin: 0;
+			padding: 20px;
+			font-weight: 400;
+		}
+		.verde {
+			background: $green;
+			padding: 15px;
+			b {
+				font-size: 48px;
+				font-weight: 400;
+			}
+		}
+		p {
+			padding: 10px;
+			margin: 0;
+		}
+		.cafe {
+			background: #8F5F38;
+			color: $white;
+		}
+		.blanco {
+			background: $white;
+			color: $bg-b;
+		}
+		.sign {
+			background: #8F5F38;
+			color: white;
+			margin: 40px 0;
+			font-size: 18px;
+		}
+	}
+	.price:hover {
+		border: 2px solid orange;
+		margin-top: 100px;
+	}
+}
+/*..........CIENTS SAY.......... */
+#clients-say {
+	.say {
+		padding: 25px 150px;
+		i {
+			font-size: 20px;
+			font-weight: 200;
+		}
+		p {
+			color:orange;
+		}
+	}
+}
+/* ..........TOUCH.......... */
+#touch {
+	form {
+		width: 60%;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+}
+/* ..........FOOTER.......... */
+#contact {
+	font-size: 16px;
+	.redes {
+		background-image: url("../img/img-divider-img.jpg");
+		background-size: 100%;
+		background-attachment: fixed;
+		padding: 10% 0;
+	}
+	.redes-sociales {
+		margin: 0 auto;
+		font-size: 100px;
+	}
+	h5 {
+		font-size: 20px;
+	}
+	.input-group {
+		margin: 0 10%;
+		i { color: orange;
+		}
+	}
+	ul {
+		padding: 0;
+		margin: 0 25%;
+	}
+	p {
+		color: $bg-b;
+	}
+}
