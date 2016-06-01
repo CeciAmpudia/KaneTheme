@@ -278,7 +278,7 @@ section {
 
 /*..........CIENTS SAY.......... */
 #clients-say .say {
-  padding: 25px 150px; }
+  padding: 5% 15%; }
   #clients-say .say i {
     font-size: 20px;
     font-weight: 200; }
@@ -297,6 +297,7 @@ section {
   #contact .redes {
     background-image: url("../img/img-divider-img.jpg");
     background-size: 100%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 10% 0; }
   #contact .redes-sociales {
