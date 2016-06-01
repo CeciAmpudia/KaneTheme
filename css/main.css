@@ -1,3 +1,9 @@
+body {
+  font-family: 'Roboto'; }
+
+.bg-g {
+  background-color: rgba(0, 0, 0, 0.08); }
+
 h2 {
   font-size: 45px;
   font-weight: 400; }
@@ -37,15 +43,15 @@ section {
 /* ..........CAROUSEL ..........*/
 #carousel {
   background: url("../img/carousel-bg.jpg");
-  background-position: 0 -210px;
+  /*background-position: 0 -210px;*/
   background-repeat: no-repeat; }
   #carousel h1, #carousel p, #carousel #team .team .red-social a, #team .team .red-social #carousel a {
     color: white;
-    font-weight: 300; }
+    font-weight: 400; }
   #carousel h1 {
-    font-size: 50px; }
+    font-size: 3em; }
   #carousel p, #carousel #team .team .red-social a, #team .team .red-social #carousel a {
-    font-size: 18px; }
+    font-size: 1.3em; }
 
 /* ..........PALETTE.......... */
 .uno {

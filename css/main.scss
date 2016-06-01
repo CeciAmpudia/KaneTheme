@@ -3,6 +3,12 @@ $shadow: rgba(0,0,0,0.08);
 $white: white;
 $bg-b: #334556;
 
+body {
+	font-family: 'Roboto';
+}
+.bg-g {
+	background-color: $shadow;
+}
 h2 {
 	font-size: 45px;
 	font-weight: 400;
@@ -45,17 +51,17 @@ section {
 /* ..........CAROUSEL ..........*/
 #carousel {
 	background: url("../img/carousel-bg.jpg");
-	background-position: 0 -210px;
+	/*background-position: 0 -210px;*/
 	background-repeat: no-repeat;
 	h1, p {
 		color: $white;
-		font-weight: 300;
+		font-weight: 400;
 	}
 	h1 {
-		font-size: 50px;
+		font-size: 3em;
 	}
 	p {
-		font-size: 18px;
+		font-size: 1.3em;
 		
 	}
 }
