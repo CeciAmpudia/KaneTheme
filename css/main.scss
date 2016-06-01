@@ -25,7 +25,9 @@ hr {
 		padding: 12px 20px;
 }
 header {
-	background: $green;
+	.navbar-fixed-top {
+		background-color: $green;
+	} 
 
 	.navbar-brand:hover {
 		background: $shadow !important;

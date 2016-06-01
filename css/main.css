@@ -19,12 +19,12 @@ hr {
   font-size: 16px;
   padding: 12px 20px; }
 
-header {
-  background: #27AD60; }
-  header .navbar-brand:hover {
-    background: rgba(0, 0, 0, 0.08) !important; }
-  header .navbar-nav li a:hover {
-    background: rgba(0, 0, 0, 0.08) !important; }
+header .navbar-fixed-top {
+  background-color: #27AD60; }
+header .navbar-brand:hover {
+  background: rgba(0, 0, 0, 0.08) !important; }
+header .navbar-nav li a:hover {
+  background: rgba(0, 0, 0, 0.08) !important; }
 
 section {
   padding: 100px 0; }
